@@ -203,18 +203,18 @@ if __name__ == "__main__":
 
     # #like comment and follow code
     
-    # ig.navHashtag(hashtag)
-    # ig.first_picture()
-    # time.sleep(5)
-    # pic_count = 1
-    # while pic_count < 25:
-    #     ig.like_pic()
-    #     ig.make_comment(comment)
-    #     # ig.follow_account()
-    #     print('Pictures liked:'+ str(pic_count))
-    #     time.sleep(12)
-    #     ig.next_pic()
-    #     pic_count += 1
+    ig.navHashtag(hashtag)
+    ig.first_picture()
+    time.sleep(5)
+    pic_count = 1
+    while pic_count < 25:
+        ig.like_pic()
+        ig.make_comment(comment)
+        # ig.follow_account()
+        print('Pictures liked:'+ str(pic_count))
+        time.sleep(12)
+        ig.next_pic()
+        pic_count += 1
 
     ig.closeBrowser()
 
