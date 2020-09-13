@@ -186,10 +186,10 @@ class InstagramBot:
 
 if __name__ == "__main__":
 
-    username = "edits.laa"
-    password = "Luca$Abrom$28"
-    hashtag = "milkyway"
-    comment = "Amazing shot!! Check out my last post!"
+    username = "YOUR_USERNAME"
+    password = "YOUR_PASSWORD"
+    hashtag = "HASHTAG"
+    comment = "YOUR_COMMENT"
 
     ig = InstagramBot(username, password)
     ig.login()
